@@ -1,7 +1,7 @@
-var Counter =0;
-var increase = () => {Counter++};
-var decrease = () => {Counter--};
-var Counter = () =>{return Counter};
+var Cnt =0;
+var increase = () => {Cnt++};
+var decrease = () => {Cnt--};
+var Counter = () =>{return Cnt};
 
 module.exports = {
     inc: increase,
