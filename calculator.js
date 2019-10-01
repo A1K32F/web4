@@ -8,4 +8,4 @@ module.exports = {
     sub:sub,
     mul:mul,
     div:div
-}
+};

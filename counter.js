@@ -7,4 +7,4 @@ module.exports = {
     inc: increase,
     dec: decrease,
     val: Counter
-};
+ } ;
