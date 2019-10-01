@@ -1,10 +1,28 @@
-var Cnt =0;
-var increase = () => {Cnt++};
-var decrease = () => {Cnt--};
-var Counter = () =>{return Cnt};
+class Counter {
+    cnt = 0;
 
-module.exports = {
-    inc: increase,
-    dec: decrease,
-    val: Counter
- } ;
+    constructor(cnt_init) {
+        if(cnt_init == null)
+        {this.cnt=0;}
+        else {
+
+        this.cnt = cnt_init;}
+    }
+
+    increase() {
+        this.cnt++;
+    }
+
+    decrease() {
+        this.cnt--;
+    }
+
+    counter() {
+        let cnt = this.cnt;
+        return cnt;
+    }
+
+
+
+}
+module.exports = Counter;
