@@ -1,4 +1,4 @@
-class Counter {
+class Counter{
     cnt = 0;
 
     constructor(cnt_init) {
@@ -9,18 +9,23 @@ class Counter {
         this.cnt = cnt_init;}
     }
 
-    increase() {
-        this.cnt++;
+    increase(a) {
+        this.cnt=this.cnt+a;
     }
 
-    decrease() {
-        this.cnt--;
+    decrease(b) {
+        this.cnt= this.cnt-b;
     }
 
     counter() {
         let cnt = this.cnt;
         return cnt;
     }
+    reset()
+    {
+        this.cnt=0;
+    }
+
 
 
 

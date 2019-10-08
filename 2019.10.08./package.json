@@ -1,0 +1,8 @@
+{
+  "name": "2019.10.08.",
+  "version": "1.0.0",
+  "dependencies": {
+    "winston": "^3.2.1"
+    
+  }
+}
