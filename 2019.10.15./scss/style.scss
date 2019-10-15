@@ -1,0 +1,12 @@
+$primary-color : pink;
+$secondary-color : lighten(Sprimary-color,10%);
+
+html body{
+  p{
+    color: $primary-color;
+  }
+  h1
+  {
+    color: $secondary-color;
+  }
+}
